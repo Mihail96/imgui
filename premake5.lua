@@ -16,12 +16,12 @@ project "ImGui"
         "imgui_rectpack.h",
         "imgui_textedit.h",
         "imgui_truetype.h",
-        "imgui_demo.cpp",
+        "imgui_demo.cpp"
     }
 
     filter "system:windows"
         systemversion "latest",
-        cppdialect "C++17"
+        cppdialect "C++17",
         staticruntime "On"
         
     filter { "system:windows", "configurations:Release" }
